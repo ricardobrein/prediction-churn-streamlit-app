@@ -1,5 +1,7 @@
 # App de prediccion de abandono de clientes (Churn).
 
+[Pruébala en este link](https://ricardobrein-prediction-churn-streamlit-app-app-3ch0rd.streamlit.app/)
+
 ### Una app para predecir el abandono de clientes, introduciendo sus caracteristicas o por lotes con un CSV.
 
 Esta aplicación desplegada en Streamlit, es la continuacion de un análisis completo del dataset de abandono de clientes (Churn) en una compañia de telecomunicaciones.
