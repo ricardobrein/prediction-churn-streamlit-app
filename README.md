@@ -9,11 +9,8 @@
 
 Esta aplicación desplegada en Streamlit, es la continuacion de un análisis completo del dataset de abandono de clientes (Churn) en una compañia de telecomunicaciones.
 
-**En la barra lateral debes seleccionar si deseas prediccion en lotes o un prediccion estandar**
-
-
-**1. Features**
-### Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
+### 1. Features
+**Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:**
 
 <details>
   <summary>Ver tipos de datos que recibe el modelo</summary>
@@ -55,16 +52,16 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
   </ul>
 </details>
 
-Al seleccionar la prediccion por lotes, **la app creara un dataframe con los datos de los clientes que considera propensos a abandonar**.
+### Motivación
+Esta aplicación es la continuación de un análisis completo sobre el abandono de clientes. [este otro repositorio](https://github.com/ricardobrein/Customer-churn-prediction-models), donde realicé el análisis de los datos y la creación de modelos de clasificación como XGBoost, LinearRegression y Random Forest. Puedes consultar ese repositorio para ver las medidas de rendimiento alcanzadas en cada modelo.
 
-Este dataframe lo podremos descargar en formato CSV con los datos de "Clientes propensos a abandonar". **Esto es especialmente útil si queremos saber tomar acciones de marketing con dichos clientes para intentar retenerlos.** además de otras aplicaciones, relacionadas con la segmentación de clientes.
+El modelo que utilice para esta aplicación es la implementación de Random Forest con los datos de Churn de Maven Analytics, el cual ha mostrado buenos resultados durante el entrenamiento.
 
-## Motivación
-Esta aplicacion es la continuacion de un análisis completo acerca del abandono de clientes, en [este otro repositorio](https://github.com/ricardobrein/Customer-churn-prediction-models) hice el analisis de los datos y la creacion de modelos de Clasificación como XGBoost, LinearRegression y Random Forest. Puedes ver en ese repositorio las medidas de rendimiento alcanzadas en cada modelo.
+### Funcionalidad de la aplicación
 
-> El modelo que hemos usado es la implementacion **Random Forest** con los datos que de Churn de [Maven Analytics](mavenanalytics.io) que me dio muy buenos resultados en el entrenamiento.
+Al utilizar la predicción por lotes, la aplicación creará un dataframe con los datos de los clientes que considera propensos a abandonar. Este dataframe se podrá descargar en formato CSV con los datos de "Clientes propensos a abandonar". Esta funcionalidad resulta especialmente útil si deseamos tomar acciones de marketing dirigidas a estos clientes con el fin de retenerlos. Además, la aplicación puede ser utilizada para otras aplicaciones relacionadas con la segmentación de clientes.
 
-**El despliegue a través de Streamlit** considero que es una opcion rapida e interesante para aprender a llevar modelos a produccion  y que podamos ver de manera práctica su desempeño.
+**Considero que el despliegue a través de Streamlit** es una opción rápida e interesante para aprender a llevar modelos a producción y ver de manera práctica su desempeño.
 
 ![Overview de la App](appgif.gif)
 
