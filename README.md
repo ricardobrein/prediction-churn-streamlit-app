@@ -5,7 +5,7 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
 
 **En la barra lateral debes seleccionar si deseas prediccion en lotes o un prediccion estandar**
 **1.Features**
-Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
+### Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
 
 <details>
   <summary>Ver tipos de datos que recibe el modelo para predecir</summary>
@@ -47,15 +47,15 @@ Para hacer predicciones sobre un dataframe completo, debe tener el siguiente for
   </ul>
 </details>
 
-Al seleccionar la prediccion por lotes, **la app creara un dataframe con los datos de los clientes que considera propensos a abandonar** la compañia según el modelo que hemos entrenado.
+Al seleccionar la prediccion por lotes, **la app creara un dataframe con los datos de los clientes que considera propensos a abandonar** según el modelo que hemos entrenado.
+Este dataframe lo podemos descargar en formato CSV con datos de "CLientes propensos a abandonar" **esto es especialmente útil si queremos saber tomar acciones de marketing con dichos clientes para intentar retenerlos.**
 
-Podemos descargar un archivo CSV con los datos que la app predice como "CLientes propensos a abandonar" **esto es especialmente útil si queremos saber que acciones tomar con dichos clientes para intentar retenelos.**
-
+## Motivación
 Esta aplicacion es la continuacion de un análisis completo acerca del abandono de clientes, en [este otro repositorio](https://github.com/ricardobrein/Customer-churn-prediction-models) hice el analisis de los datos y la creacion de modelos de Clasificación como XGBoost, LinearRegression y Random Forest. Puedes ver en ese repositorio las medidas de rendimiento alcanzadas en cada modelo.
 
-El modelo que hemos usado es la implementacion Random Forest con los datos que de Churn de [Maven Analytics](mavenanalytics.io) que me dio muy buenos resultados, 
+El modelo que hemos usado es la implementacion **Random Forest** con los datos que de Churn de [Maven Analytics](mavenanalytics.io) que me dio muy buenos resultados en el entrenamiento.
 
-El despliegue en Streamlit considero que es una opcion rapida e interesante para aprender a hacer despliegues a produccion de modelos simples y que podamos ver de manera práctica su funcionamiento.
+El despliegue a través de Streamlit considero que es una opcion rapida e interesante para aprender a llevar modelos a produccion  y que podamos ver de manera práctica su funcionamiento con apps básicas.
 
 ![Overview de la App](appgif.gif)
 
