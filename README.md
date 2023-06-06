@@ -55,7 +55,7 @@ Esta aplicacion es la continuacion de un análisis completo acerca del abandono 
 
 > El modelo que hemos usado es la implementacion **Random Forest** con los datos que de Churn de [Maven Analytics](mavenanalytics.io) que me dio muy buenos resultados en el entrenamiento.
 
-**El despliegue a través de Streamlit** considero que es una opcion rapida e interesante para aprender a llevar modelos a produccion  y que podamos ver de manera rápida su desempeño.
+**El despliegue a través de Streamlit** considero que es una opcion rapida e interesante para aprender a llevar modelos a produccion  y que podamos ver de manera práctica su desempeño.
 
 ![Overview de la App](appgif.gif)
 
