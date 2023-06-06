@@ -59,7 +59,9 @@ El modelo que utilice para esta aplicación es la implementación de Random Fore
 
 ### Funcionalidad de la aplicación
 
-Al utilizar la predicción por lotes, la aplicación creará un dataframe con los datos de los clientes que considera propensos a abandonar. Este dataframe se podrá descargar en formato CSV con los datos de "Clientes propensos a abandonar". Esta funcionalidad resulta especialmente útil si deseamos tomar acciones de marketing dirigidas a estos clientes con el fin de retenerlos. Además, la aplicación puede ser utilizada para otras aplicaciones relacionadas con la segmentación de clientes.
+Al utilizar la predicción por lotes, **se creará un dataframe con los datos de los clientes que se consideran propensos a abandonar.** Este dataframe se podrá descargar en formato CSV. 
+
+Esta funcionalidad resulta especialmente útil si deseamos tomar acciones de marketing dirigidas a estos clientes con el fin de retenerlos. Además, la aplicación puede ser utilizada para otras aplicaciones relacionadas con la segmentación de clientes.
 
 **Considero que el despliegue a través de Streamlit** es una opción rápida e interesante para aprender a llevar modelos a producción y ver de manera práctica su desempeño.
 
