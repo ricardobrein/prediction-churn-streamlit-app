@@ -50,8 +50,9 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
   </ul>
 </details>
 
-Al seleccionar la prediccion por lotes, **la app creara un dataframe con los datos de los clientes que considera propensos a abandonar** según el modelo que hemos entrenado.
-Este dataframe lo podemos descargar en formato CSV con datos de "CLientes propensos a abandonar" **esto es especialmente útil si queremos saber tomar acciones de marketing con dichos clientes para intentar retenerlos.**
+Al seleccionar la prediccion por lotes, **la app creara un dataframe con los datos de los clientes que considera propensos a abandonar**.
+
+Este dataframe lo podremos descargar en formato CSV con los datos de "Clientes propensos a abandonar". **Esto es especialmente útil si queremos saber tomar acciones de marketing con dichos clientes para intentar retenerlos.** además de otras aplicaciones, relacionadas con la segmentación de clientes.
 
 ## Motivación
 Esta aplicacion es la continuacion de un análisis completo acerca del abandono de clientes, en [este otro repositorio](https://github.com/ricardobrein/Customer-churn-prediction-models) hice el analisis de los datos y la creacion de modelos de Clasificación como XGBoost, LinearRegression y Random Forest. Puedes ver en ese repositorio las medidas de rendimiento alcanzadas en cada modelo.
