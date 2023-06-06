@@ -9,7 +9,7 @@
 
 Esta aplicación desplegada en Streamlit, es la continuacion de un análisis completo del dataset de abandono de clientes (Churn) en una compañia de telecomunicaciones.
 
-### 1. Features
+### Features
 **Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:**
 
 <details>
