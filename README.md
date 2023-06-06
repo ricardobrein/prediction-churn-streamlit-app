@@ -7,40 +7,45 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
 **1.Features**
 Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
 
-'Gender': str, 
-'Age': int, 
-'Married': bool, 
-'Number of Dependents': int,
-'Number of Referrals': int, 
-'Tenure in Months': int,
-'Offer': bool,
-'Phone Service': bool,
-'Multiple Lines': bool,
-'Internet Service': bool,
-'Online Security': bool,
-'Online Backup': bool,
-'Device Protection Plan': bool,
-'Premium Tech Support': bool,
-'Streaming TV': bool,
-'Streaming Movies': bool,
-'Streaming Music': bool,
-'Unlimited Data': bool,
-'Paperless Billing': bool,
-'Monthly Charge': float,
-'Total Charges': float,
-'Total Refunds': float,
-'Total Extra Data Charges': float,
-'Total Long Distance Charges': float,
-'Internet Type_Cable': bool,
-'Internet Type_DSL': bool,
-'Internet Type_Fiber Optic': bool,
-'Contract_Month-to-Month': bool,
-'Contract_One Year': bool,
-'Contract_Two Year': bool,
-'Payment Method_Bank Withdrawal': bool,
-'Payment Method_Credit Card': bool,
-'Payment Method_Mailed Check': bool`
-
+<details>
+  <summary>Elementos de la lista</summary>
+  
+  <ul style="overflow-y: scroll; max-height: 200px;">
+    <li>'Gender': str</li>
+    <li>'Age': int</li>
+    <li>'Married': bool</li>
+    <li>'Number of Dependents': int</li>
+    <li>'Number of Referrals': int</li>
+    <li>'Tenure in Months': int</li>
+    <li>'Offer': bool</li>
+    <li>'Phone Service': bool</li>
+    <li>'Multiple Lines': bool</li>
+    <li>'Internet Service': bool</li>
+    <li>'Online Security': bool</li>
+    <li>'Online Backup': bool</li>
+    <li>'Device Protection Plan': bool</li>
+    <li>'Premium Tech Support': bool</li>
+    <li>'Streaming TV': bool</li>
+    <li>'Streaming Movies': bool</li>
+    <li>'Streaming Music': bool</li>
+    <li>'Unlimited Data': bool</li>
+    <li>'Paperless Billing': bool</li>
+    <li>'Monthly Charge': float</li>
+    <li>'Total Charges': float</li>
+    <li>'Total Refunds': float</li>
+    <li>'Total Extra Data Charges': float</li>
+    <li>'Total Long Distance Charges': float</li>
+    <li>'Internet Type_Cable': bool</li>
+    <li>'Internet Type_DSL': bool</li>
+    <li>'Internet Type_Fiber Optic': bool</li>
+    <li>'Contract_Month-to-Month': bool</li>
+    <li>'Contract_One Year': bool</li>
+    <li>'Contract_Two Year': bool</li>
+    <li>'Payment Method_Bank Withdrawal': bool</li>
+    <li>'Payment Method_Credit Card': bool</li>
+    <li>'Payment Method_Mailed Check': bool</li>
+  </ul>
+</details>
 
 Al seleccionar la prediccion por lotes, **la app creara un dataframe con los datos de los clientes que considera propensos a abandonar** la compañia según el modelo que hemos entrenado.
 
