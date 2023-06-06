@@ -2,7 +2,10 @@
 
 [Pruébala en este link](https://ricardobrein-prediction-churn-streamlit-app-app-3ch0rd.streamlit.app/)
 
-### Una app para predecir el abandono de clientes, introduciendo sus caracteristicas o por lotes con un CSV.
+### En resumen, la aplicación ofrece dos formas de realizar las predicciones:
+
+1. Predicción individual: El usuario puede introducir las características de un cliente de forma manual para obtener una predicción de abandono.
+2. Predicción en lotes: El usuario puede cargar un archivo CSV que contenga un conjunto de datos de clientes, y la aplicación realizará predicciones de abandono para cada uno de ellos.
 
 Esta aplicación desplegada en Streamlit, es la continuacion de un análisis completo del dataset de abandono de clientes (Churn) en una compañia de telecomunicaciones.
 
