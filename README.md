@@ -7,12 +7,12 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
 **1.Features**
 Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
 
-> `'Gender': str, 
-> 'Age': int, 
-> 'Married': bool, 
-> 'Number of Dependents': int,
-> 'Number of Referrals': int, 
-> 'Tenure in Months': int,
+'Gender': str, 
+'Age': int, 
+'Married': bool, 
+'Number of Dependents': int,
+'Number of Referrals': int, 
+'Tenure in Months': int,
 'Offer': bool,
 'Phone Service': bool,
 'Multiple Lines': bool,
