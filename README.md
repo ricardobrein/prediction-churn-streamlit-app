@@ -6,7 +6,8 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
 
 **En la barra lateral debes seleccionar si deseas prediccion en lotes o un prediccion estandar**
 
-**1.Features**
+
+**1. Features**
 ### Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
 
 <details>
