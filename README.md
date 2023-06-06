@@ -1,4 +1,4 @@
-# App de prediccion de abandono de clientes (Churn) desplegada en Streamlit.
+# :busts_in_silhouette: App de prediccion de abandono de clientes (Churn) desplegada en Streamlit.
 
 [Pruébala en este link](https://ricardobrein-prediction-churn-streamlit-app-app-3ch0rd.streamlit.app/)
 
