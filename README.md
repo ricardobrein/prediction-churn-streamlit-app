@@ -8,7 +8,7 @@ Esta aplicación desplegada en Streamlit, es la continuacion de un análisis com
 Para hacer predicciones sobre un dataframe completo, debe tener el siguiente formato de datos:
 
 <details>
-  <summary>Elementos de la lista</summary>
+  <summary>Ver tipos de datos que recibe el modelo para predecir</summary>
   
   <ul style="overflow-y: scroll; max-height: 200px;">
     <li>'Gender': str</li>
