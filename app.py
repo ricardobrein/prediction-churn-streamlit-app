@@ -53,10 +53,11 @@ tipos_datos = {
 st.title("Aplicación de Predicción de Abandono de Clientes")
 
 st.markdown("""
-     :dart:  Esta aplicación de Streamlit está diseñada para predecir la rotación de clientes con los datos ficticios de una empresa de Telecomunicaciones.\n
-    """)
+     :dart:  Esta aplicación de Streamlit está diseñada para predecir
+     la rotación de clientes con los datos ficticios de una empresa de Telecomunicaciones.\n
+     """)
 
-# Obtener la opción seleccionada (en línea o por lotes)
+# Mostrar la opción seleccionada (en línea o por lotes)
 opcion = st.sidebar.selectbox("Seleccione el modo de predicción:", ["Predicción en línea", "Predicción por lotes"])
 st.sidebar.info(':dart: Selecciona el modo de prediccion de la aplicacion.\n Funciona tanto Online como por Lotes(mediante un CSV)\n')
 
